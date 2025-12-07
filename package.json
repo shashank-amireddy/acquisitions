@@ -1,5 +1,5 @@
 {
-  "name": "acquisitions",
+  "name": "node-express-api-starter",
   "version": "1.0.0",
   "type": "module",
   "main": "index.js",
@@ -28,10 +28,10 @@
     "prod:docker": "powershell -ExecutionPolicy Bypass -File ./scripts/prod.ps1",
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": ["express", "nodejs", "api", "rest", "postgresql", "drizzle", "jwt", "starter"],
+  "author": "Shashank Amireddy",
+  "license": "MIT",
+  "description": "Production-ready REST API starter with Express, PostgreSQL, JWT auth, and comprehensive tooling",
   "dependencies": {
     "@arcjet/inspect": "^1.0.0-beta.15",
     "@arcjet/node": "^1.0.0-beta.15",
