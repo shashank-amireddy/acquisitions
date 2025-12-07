@@ -37,4 +37,9 @@ app.get('/api', (req, res) => {
 
 app.use('/api/auth', authRoutes);
 app.use('/api/users', usersRoutes);
+
+app.use((req, res) => {
+  logger.warn(`404 Not Found: ${req.originalUrl}`);
+  res.status(404).send({ error: 'Route not Found' });
+});
 export default app;

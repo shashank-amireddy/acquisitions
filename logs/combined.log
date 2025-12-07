@@ -425,3 +425,9 @@
 {"level":"info","message":"::ffff:172.21.0.1 - - [06/Dec/2025:07:09:59 +0000] \"GET /api/users HTTP/1.1\" 200 977 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0\"","service":"acquisitions-api"}
 {"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api"}
 {"level":"info","message":"::1 - - [06/Dec/2025:07:10:16 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"Health check endpoint accessed","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/Dec/2025:19:36:44 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"info","message":"API root endpoint accessed","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/Dec/2025:19:36:44 +0000] \"GET /api HTTP/1.1\" 200 23 \"-\" \"-\"","service":"acquisitions-api"}
+{"level":"warn","message":"404 Not Found: /nonexistent","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [07/Dec/2025:19:36:45 +0000] \"GET /nonexistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"acquisitions-api"}
